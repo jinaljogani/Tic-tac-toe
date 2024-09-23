@@ -1,0 +1,39 @@
+body {
+    font-family: cursive;
+    font-style: italic;
+    color: rgb(146, 21, 75);
+    background-color: rgb(255, 237, 215);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .col {
+    height: 100px; /* Increase the height */
+    width: 100px; /* Increase the width */
+    border: 2px solid rgb(137, 61, 108); /* Slightly thicker border */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px; /* Increase font size */
+    cursor: pointer;
+  }
+  
+  
